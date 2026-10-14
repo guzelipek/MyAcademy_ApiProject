@@ -1,0 +1,15 @@
+﻿@using MyAcademy_ApiWebUIProject.Dtos.CategoryDtos
+@model CreateCategoryDto
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<form method="post">
+    <br/><br/>
+        <div class="container">
+        <label for="CategoryName">Kategori Adı</label>
+        <input type="text" class="form-control" id="CategoryName"/>
+    </div>
+    <button class="btn btn-primary">Kaydet</button>
+</form>
